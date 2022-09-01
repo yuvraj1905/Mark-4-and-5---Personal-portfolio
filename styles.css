@@ -3,3 +3,13 @@
 body {
   font-family: "Anek Telugu", sans-serif;
 }
+
+.centered_container {
+  margin: auto;
+  max-width: 600px;
+}
+
+.fluid_container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
