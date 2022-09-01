@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&display=swap");
 
 :root {
-  --primary-color: #5eead4;
+  --primary-color: #3f6212;
 }
 
 body {
@@ -17,7 +17,7 @@ hr {
   max-width: 600px;
 }
 
-.fluid_container {
+.container {
   padding: 0rem 1rem;
 }
 .link {
@@ -43,4 +43,31 @@ hr {
 .list-item-inline {
   display: inline;
   padding: 0rem 0.5rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.nav-pills {
+  color: white;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link-active {
+  font-weight: bold;
 }

@@ -22,7 +22,7 @@
 
     <h2>@container</h2>
     <h3>this is a fluid container</h3>
-    <div class="fluid_container">this is a fluid container</div>
+    <div class="container">this is a fluid container</div>
 
     <h3>this is a centered container</h3>
     <div class="centered_container">this is a centered container</div>
@@ -57,18 +57,18 @@
 
     <h2>@navBar</h2>
 
-    <nav>
-      <div>
-        <ul>
-          <a href="/">Home </a>
-        </ul>
-        <ul>
-          <a href="/">Product</a>
-        </ul>
-        <ul>
-          <a href="/">About</a>
-        </ul>
-      </div>
+    <nav class="navigation container">
+      <div class="nav-brand">iAmBrand</div>
+
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Home </a>
+        </li>
+
+        <li class="list-item-inline"><a class="link" href="/">Product</a></li>
+
+        <li class="list-item-inline"><a class="link" href="/">About</a></li>
+      </ul>
     </nav>
 
     <hr />
