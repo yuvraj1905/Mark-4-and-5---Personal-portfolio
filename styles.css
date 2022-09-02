@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&display=swap");
 
 :root {
-  --primary-color: #9333ea;
+  --primary-color: #65a30d;
   --dark-gray: #737373;
-  --off-white: #6b7280;
+  --off-white: #e5e5e5;
 }
 
 body {
@@ -31,6 +31,7 @@ hr {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: white;
+  /* margin-top: 2rem; */
 }
 
 .link-secondary {
@@ -77,6 +78,7 @@ hr {
 
 .hero {
   padding: 2rem;
+  padding-top: 2rem;
 }
 
 .hero .hero-img {
@@ -99,6 +101,12 @@ hr {
   text-align: center;
 }
 
+.section p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-bottom: 0.5rem;
+}
+
 .ow {
   background-color: var(--off-white);
 }
@@ -117,4 +125,9 @@ hr {
 
 .footer ul {
   padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
 }
