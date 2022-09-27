@@ -22,6 +22,7 @@ hr {
 
 .container {
   padding: 0rem 1rem;
+  /* margin-bottom: 10rem; */
 }
 .link {
   text-decoration: none;
